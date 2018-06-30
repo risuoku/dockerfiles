@@ -25,11 +25,6 @@ do
       ;;
     '--prefix' )
       BUILD_PREFIX=$2
-      echo "ok!"
-      shift 2
-      ;;
-    '--p2' )
-      echo "ok2"
       shift 2
       ;;
     *)
